@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/beb587f537.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="nav-container">
+    <nav class="navbar navbar-default navbar-fixed-top affix">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li>
+                <a class="page-scroll " href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a class="nav-link active" href="./galeria.html">Galeria</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./acceso.html">Acceso Socios</a>
+              </li>
+            </ul>
+          </div>
+          <button class="switch" id="switch">
+            <span> <i class="fa-solid fa-sun"></i></span>
+            <span> <i class="fa-solid fa-moon"></i> </span>
+          </button>
+        </div>
+    </nav>
+    </div>
+    <header>
+      <div class="container-form">
+        <div class="row">
+            <div class="col-lg-12 text-center text-secondary">
+                <h2 class="margin-top-0 " style="visibility: visible; animation-name: fadeIn;">Contacto</h2>
+                <hr class="primary">
+                <p>Estos son nuestros canales de comunicación. Si desea enviarnos una consulta puede también hacerlo a través del siguiente formulario.</p>
+            </div>
+            <div class="col-lg-12">
+                <div class="col-lg-12 ">
+                    <form class="formulario" id="formulario">
+                        <div class="col-md-4 col-lg-12">
+                            <label></label>
+                            <input type="text" class="form-control" placeholder="Nombre" id="nombre" required>
+                        </div>
+                        <div class="col-md-4 col-lg-12">
+                            <label></label>
+                            <input type="email" class="form-control" placeholder="Email"  id="mail"required>
+                        </div>
+                        <div class="col-md-4 col-lg-12">
+                            <label></label>
+                            <input type="numer" class="form-control" placeholder="Teléfono" id="telefono"required>
+                        </div>
+                        <div class="col-md-4 col-lg-12" style="margin-top: 0.7rem ;">
+                            <label>
+                            <textarea class="form-control" cols="120" rows="9" placeholder="Mensaje.."  id="mensaje"  required></textarea>
+                            </label>
+                        </div>
+                        <div class="col-md-4 ">
+                            <label></label>
+                            <button type="submit" id="btn" class="btn btn-secondary btn-block btn-lg" style="margin-top:0.5rem;" onclick="capturar();">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div id="administracion" class="col-lg-4 col-sm-6 col-12 text-secondary ">
+                        <div class="col-md-12">
+                            <h3>Administracion</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <span class="ion-ios-telephone icons"> </span><a class="phone" href:"tel:02229-11-1111"="">02229-11-1111</a>
+                        </div>
+                        <div class="col-md-12">
+                            <span class="ion-ios-email icons"> </span><a class="phone" href="#">administracion@losalamos.com</a>
+                        </div>
+                </div>
+                <div id="proveedor" class="col-lg-4 col-sm-6 col-12 text-secondary margin-top-15">
+                        <div class="col-md-12">
+                            <h3>Proveedores</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <span class="ion-ios-telephone icons"> </span><a class="phone" href:"tel:02229-11-1112"="">02229-11-1112</a>
+                        </div>
+                        <div class="col-md-12">
+                            <span class="ion-ios-email icons"> </span><a class="phone" href="#">proveedores@losalamos.com</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <label></label>
+      </div>
+    </header>
+    
+
+
+
+
+    <footer>
+        <div class="footer">
+        <div class="iconos">
+            <ul>
+                <li><i class="fa-brands fa-youtube"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-solid fa-envelope"></i></li>
+            </ul>
+        </div>
+        <div class="desarrollo">
+        <a href="">        
+            <p>
+            Karen Teper | Desarrolladora Front end
+        </p>
+        </a>
+    </div>
+    </div>
+
+    </footer>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/sweetalert.js"></script>
+</body>
+</html>

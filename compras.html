@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/beb587f537.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/stylescarrito.css">
+
+    <title>Socios</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="socios.html">Conversor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/compras.html">Compras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Expensas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container_compras">
+        <h1 class="titulo">Almacen Don Julio</h1>
+        <h2>Te lo llevamos a tu domicilio en minutos</h2>
+        <button id="boton-carrito"><i class="fa-solid fa-basket-shopping"></i><span id="contadorCarrito">0</span></button>
+    </div>
+
+    <main id="contenedor-productos">
+
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+            <button id="comprar-carrito" class ="comprar-carrito">Realizar pedido</button>
+        </div>
+    </div>
+
+      <script src="./js/bootstrap.min.js"></script>
+      <script  src="./js/productos.js"></script>
+      <script  src="./js/modal.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      
+
+    </body>
+    </html>
